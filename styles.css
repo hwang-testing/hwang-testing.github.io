@@ -1,16 +1,12 @@
-
-
 img{
-
-position:fixed ;
-border:hidden;
+  position:fixed ;
+  border:hidden;
   z-index: -1; }
 
 
-
 div#stempel {
- position:fixed;
-right:100px;
+  position:fixed;
+  right:100px;
 
   display:flex;
   flex-direction:column;
@@ -22,18 +18,13 @@ right:100px;
   -ms-transform: rotate(-20deg); /* IE 9 */
   transform: rotate(-20deg); /* Standard syntax */
   }
-  
-  
-
-              
-
+     
 
 div.stempel_half {
   display:inline-block;
   width: 100px;
   border:hidden;
-  
-  }
+   }
     
 
 #stempel_line {
@@ -44,10 +35,11 @@ div.stempel_half {
   }
   
 p.stempel_words{
-color:green;
-font-weight:bold;
-text-align: center;
-baseline:middle;
+ white-space: pre;
+ color:green;
+ font-weight:bold;
+ text-align: center;
+ baseline:middle;
 }
 
 
