@@ -1,12 +1,13 @@
 img{
-  position:fixed ;
+  position:absolute ;
   border:hidden;
   z-index: -1; }
 
 
 div#stempel {
-  position:fixed;
-  right:100px;
+  position:relative;
+  left:610px;
+  top:-60px;
 
   display:flex;
   flex-direction:column;
